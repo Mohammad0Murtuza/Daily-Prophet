@@ -6,7 +6,7 @@ const _ = require("lodash");
 const book1 =
   "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry’s eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!";
 const dailyProphet =
-  "There is one of the best wizarding newspaper in Britain, discounting such small circulation publications such as *The Quibbler*. The *Daily Prophet*, whose headquarters are in Diagon Alley, is delivered by owl on a daily basis to nearly every wizarding household in Britain(now all over the world). Payment is effected by placing coins in the pouch tied to the paper-owl’s leg. Occasionally (when something particularly interesting or exciting happens) an Evening Prophet edition will be rushed out.";
+  "There is one of the best wizarding newspaper in World, discounting such small circulation publications such as *The Quibbler*. The *Daily Prophet*, whose headquarters are in Diagon Alley, is delivered by owl on a daily basis to nearly every wizarding household in Britain(now all over the world). Payment is effected by placing coins in the pouch tied to the paper-owl’s leg. Occasionally (when something particularly interesting or exciting happens) an Evening Prophet edition will be rushed out. Now as various technologies has been created the CEO of Daily Prophet Mohammad Murtuza has created an online Web Application for Daily Prophet.";
 const contactDailyProphet =
   "To contact Daily Prophet mali me at wizardingavengers@gmail.com";
 const app = express();
@@ -61,6 +61,6 @@ app.get("/posts/:postName", function (req, res) {
   });
 });
 
-app.listen(8000, function () {
-  console.log("Server started on port 8000");
+app.listen(3000, function () {
+  console.log("Server started on port 3000");
 });
